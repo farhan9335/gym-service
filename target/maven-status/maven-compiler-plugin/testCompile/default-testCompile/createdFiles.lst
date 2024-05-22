@@ -1,0 +1,9 @@
+com\example\mypack\service\PersonServiceTest.class
+com\example\mypack\model\ImageDataTest.class
+com\example\mypack\controller\PersonControllerTest.class
+com\example\mypack\GymUserServiceApplicationTests.class
+com\example\mypack\service\SequenceGeneratorServiceTest.class
+com\example\mypack\utility\ImageUtilTest.class
+com\example\mypack\advice\PersonControllerAdviceTest.class
+com\example\mypack\model\PersonTest.class
+com\example\mypack\model\DatabaseSequenceTest.class
