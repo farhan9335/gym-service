@@ -6,4 +6,9 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: farhanTest   
+      database: farhanTest  
+       
+gym:
+ openapi:
+   dev-url: http://localhost:8080
+   prod-url: https://gym-api.com            
