@@ -11,4 +11,14 @@ spring:
 gym:
  openapi:
    dev-url: http://localhost:8080
-   prod-url: https://gym-api.com            
+   prod-url: https://gym-api.com
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /admin    
+  endpoint:
+    health:
+      show-details: always    
