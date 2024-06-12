@@ -11,4 +11,11 @@ spring:
 gym:
  swagger:
    dev-url: http://localhost:8089/swagger-ui/index.html
-   prod-url: https://bezkoder-api.com         
+   prod-url: https://bezkoder-api.com  
+   
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"          
