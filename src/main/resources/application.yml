@@ -6,4 +6,9 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: farhanTest   
+      database: farhanTest
+
+gym:
+ swagger:
+   dev-url: http://localhost:8089/swagger-ui/index.html
+   prod-url: https://bezkoder-api.com         
